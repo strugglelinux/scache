@@ -60,7 +60,6 @@ func (c *Cache) get(key string) (interface{}, bool) {
 		return item.Object, true
 	}
 	return nil, false
-
 }
 
 // Set 设置
